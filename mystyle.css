@@ -1,0 +1,205 @@
+body {
+    display:flex;
+    flex-direction: column;
+    
+    font-family: 'Roboto';
+    margin:0;
+    padding:0;   
+}
+
+.wholebanner {
+    background-color: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    
+    display: flex;
+    gap: 500px;
+}
+
+.main  {
+    background-color: #1F2937;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header {
+    display:flex;
+    gap: 20px;      
+}
+
+.header a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration:none;
+}
+
+body .main {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px; 
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.titledes {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top:0;
+}
+
+.mainleft button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 12px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 12px;
+    font-size:18px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.main {
+    gap: 32px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex; 
+}
+
+.mainleft {
+    width: 450px;
+}
+
+.main img {
+    flex-shrink: 0;
+}
+
+.infotitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 55px;
+}
+
+.infoinfo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.information {
+    background-color: #F9FAF8;
+    padding-bottom: 100px;   
+}
+
+.info {
+    max-width: 150px;
+}
+
+.infodesc {
+    text-align: center;
+}
+
+.infoimage {
+    border-radius: 12px;
+}
+
+.quotation {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quotes {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: end; 
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ads .adcontainer {
+    background-color: #3882F6;
+    display:flex;
+    color:  white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: center;
+    gap: 180px;
+    border-radius: 12px;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.signup {
+    font-size:18px;
+}
+
+.ads button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 8px 50px;
+    color: white;
+    border-color: white;
+    border-width:medium;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
